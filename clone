@@ -12,7 +12,7 @@
 #
 # 2010-08-07
 if [ -z $1 ]; then
-	echo "Erster Parameter fehlt. Redo from start!"
+	echo "First argument missing. Redo from start!"
 	exit 2
 fi
 
@@ -22,7 +22,7 @@ if [ -z $2 ]; then
 	newname=$1
 
 	if [ -d $newname ]; then
-		echo \'$newname\' existiert schon. Breche ab.
+		echo \'$newname\' exists already. Bailing out.
 		exit 1
 	fi
 
@@ -39,7 +39,7 @@ else
 	newname=$2
 
 	if [ -d $newname ]; then
-		echo \'$newname\' existiert schon. Breche ab.
+		echo \'$newname\' exists already. Bailing out.
 		exit 1
 	fi
 
@@ -52,7 +52,7 @@ for F in $newname/$oldname.*; do
 	mv $F $newF
 	sed -i -e"s|$oldname|$newname|" $newF
 
-	# Remove superflous binaries
+	# Remove superfluous binaries
 	rm -rf $newname/bin/*
 done
 
