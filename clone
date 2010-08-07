@@ -35,7 +35,7 @@ if [ -z $2 ]; then
 
 	mv primsoup $newname
 else
-	oldname=$1
+	oldname=`basename $1`
 	newname=$2
 
 	if [ -d $newname ]; then
@@ -46,8 +46,10 @@ else
 	cp -r $oldname $newname
 fi
 
+
 for F in $newname/$oldname.*; do
-	newF=${F/$oldname/$newname}
+	baseF=`basename $F`
+	newF=${newname}/${baseF/$oldname/$newname}
 	echo file \'$F\' becomes \'$newF\'
 	mv $F $newF
 	sed -i -e"s|$oldname|$newname|" $newF
