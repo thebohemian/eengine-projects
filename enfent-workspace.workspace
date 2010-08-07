@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_file>
-	<Workspace title="Workspace">
+	<Workspace title="enfine">
 		<Project filename="e01-ultrabasics/e01-ultrabasics.cbp" />
 		<Project filename="e02-timer-label/e02-timer-label.cbp" />
 		<Project filename="e03-events/e03-events.cbp" />
 		<Project filename="e04-shaders/e04-shaders.cbp" />
 		<Project filename="e05-tiled-texture/e05-tiled-texture.cbp" />
-		<Project filename="primsoup/primsoup.cbp" active="1" />
 	</Workspace>
 </CodeBlocks_workspace_file>
