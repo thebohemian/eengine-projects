@@ -1,0 +1,58 @@
+#!/bin/bash
+# This little script automates the process of creating a usable D'Enfent
+# project or cloning an existing one.
+#
+# When one parameter is given only:
+# Uses a tarball with the project name 'primsoup' and changes filenames
+# and file contents to be equal to the name given as 1st argument.
+#
+# When two arguments are given:
+# Copies project denoted by first parameter into a new one whose name is given
+# by the 2nd parameter.
+#
+# 2010-08-07
+if [ -z $1 ]; then
+	echo "Erster Parameter fehlt. Redo from start!"
+	exit 2
+fi
+
+if [ -z $2 ]; then
+	# Only one parameter: Clone primsoup project
+	oldname=primsoup
+	newname=$1
+
+	if [ -d $newname ]; then
+		echo \'$newname\' existiert schon. Breche ab.
+		exit 1
+	fi
+
+	if [ -d primsoup ]; then
+		echo "Removing 'primsoup' folder"
+		rm -rf primsoup
+	fi
+
+	tar xfz primsoup.tar.gz
+
+	mv primsoup $newname
+else
+	oldname=$1
+	newname=$2
+
+	if [ -d $newname ]; then
+		echo \'$newname\' existiert schon. Breche ab.
+		exit 1
+	fi
+
+	cp -r $oldname $newname
+fi
+
+for F in $newname/$oldname.*; do
+	newF=${F/$oldname/$newname}
+	echo file \'$F\' becomes \'$newF\'
+	mv $F $newF
+	sed -i -e"s|$oldname|$newname|" $newF
+
+	# Remove superflous binaries
+	rm -rf $newname/bin/*
+done
+
