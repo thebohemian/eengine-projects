@@ -1,0 +1,533 @@
+# depslib dependency file v1.0
+1281118626 source:/home/rschus/devel/enfent-projects/e05-texnshader2/src/main.cpp
+	<windows/eeWindowSystemFactory.h>
+	<engines/eeGLEngine.h>
+	<cameras/eeOrthoCamera.h>
+	<interface/eeGUIBuilder.h>
+
+1281030869 /home/rschus/devel/enfent-engine-trunk/include/windows/eeWindowSystemFactory.h
+	<eeCommon.h>
+	<windows/eeWindowSystem.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/eeCommon.h
+	<ctime>
+	<cmath>
+	<eeTypes.h>
+	<eeConsts.h>
+	<eeDebug.h>
+	<eeObject.h>
+	<eeKeys.h>
+	<windows.h>
+	<gl/gl.h>
+	<glext.h>
+	<wglext.h>
+	<gl/glu.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<logs/eeLog.h>
+	<tools/eeMemoryManager.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/eeTypes.h
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/eeConsts.h
+	<eeTypes.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/eeDebug.h
+	<eeConsts.h>
+	<tools/eeStringTool.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeStringTool.h
+	<string>
+	<eeCommon.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/eeObject.h
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/eeKeys.h
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/logs/eeLog.h
+	<string>
+	<cstdio>
+	<cstdlib>
+	<vector>
+	<eeCommon.h>
+	<eeTypes.h>
+	<eeConsts.h>
+	<io/eeOutputStream.h>
+	<io/eeTextWriter.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/io/eeOutputStream.h
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/io/eeTextWriter.h
+	<cstdarg>
+	<io/eeOutputStream.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeMemoryManager.h
+	<vector>
+
+1281030869 /home/rschus/devel/enfent-engine-trunk/include/windows/eeWindowSystem.h
+	<string>
+	<eeCommon.h>
+	<events/eeSystemEvent.h>
+	<events/eeMouseEventsSource.h>
+	<events/eeKeyEventsSource.h>
+	<windows/eeWindow.h>
+	<fonts/eeFont.h>
+	<fonts/eeFontDescriptor.h>
+	<tools/eeMemoryManager.h>
+	<states/eeViewportState.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeSystemEvent.h
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeMouseEventsSource.h
+	<vector>
+	<eeTypes.h>
+	<sprites/eeAbstractSprite.h>
+	<events/eeMouseEvent.h>
+	<events/eeMouseListener.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/sprites/eeAbstractSprite.h
+	<eeCommon.h>
+	<eeVisibleObject.h>
+	<math/eeVector3f.h>
+	<events/eeMouseListener.h>
+	<events/eeKeyListener.h>
+	<states/eeBlendState.h>
+	<states/eeAlphaTestState.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/eeVisibleObject.h
+	<eeCommon.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/math/eeVector3f.h
+	<eeCommon.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeMouseListener.h
+	<eeCommon.h>
+	<math/eeVector3f.h>
+	<events/eeMouseEvent.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeMouseEvent.h
+	<events/eeSystemEvent.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeKeyListener.h
+	<eeCommon.h>
+	<events/eeKeyEvent.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeKeyEvent.h
+	<events/eeSystemEvent.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeBlendState.h
+	<eeCommon.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeAlphaTestState.h
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeKeyEventsSource.h
+	<vector>
+	<eeTypes.h>
+	<events/eeKeyEvent.h>
+	<events/eeKeyListener.h>
+
+1281030869 /home/rschus/devel/enfent-engine-trunk/include/windows/eeWindow.h
+	<string>
+	<X11/X.h>
+	<X11/keysym.h>
+	<eeTypes.h>
+	<eeVisibleObject.h>
+	<states/eeViewportState.h>
+	<events/eeSystemEvent.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeViewportState.h
+
+1281030869 /home/rschus/devel/enfent-engine-trunk/include/fonts/eeFont.h
+	<eeCommon.h>
+
+1281030869 /home/rschus/devel/enfent-engine-trunk/include/fonts/eeFontDescriptor.h
+	<string>
+	<eeCommon.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/engines/eeGLEngine.h
+	<vector>
+	<engines/eeEngine.h>
+	<buffers/eeVBOExt.h>
+	<buffers/eeVBOImpl.h>
+	<shaders/eeShadersExt.h>
+	<shaders/eeShadersImpl.h>
+	<buffers/eeFBOExt.h>
+	<buffers/eeFBOImpl.h>
+	<textures/eeMIPsExt.h>
+	<textures/eeMIPsImpl.h>
+	<states/eeGLGPUStateManager.h>
+	<ext/eeVSyncExt.h>
+	<ext/eeVSyncImpl.h>
+	<ext/eeMultiTextureExt.h>
+	<ext/eeMultiTextureImpl.h>
+	<engines/eeGLDeviceCaps.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/engines/eeEngine.h
+	<vector>
+	<math/eeVector2f.h>
+	<math/eeVector3f.h>
+	<math/eeVector4f.h>
+	<math/eeMatrix4f.h>
+	<textures/eeTexture.h>
+	<shaders/eeShader.h>
+	<shaders/eeProgram.h>
+	<buffers/eeVideoBuffer.h>
+	<buffers/eeFrameBuffer.h>
+	<buffers/eeRenderBuffer.h>
+	<interface/eeInterface.h>
+	<cameras/eeCamera.h>
+	<cameras/eeOrthoCamera.h>
+	<tools/eeMemoryManager.h>
+	<sprites/eeSimpleSprite.h>
+	<sprites/eeSprite.h>
+	<sprites/eeAnimatedSprite.h>
+	<sprites/eeMovableSprite.h>
+	<io/eeFileOutputStream.h>
+	<states/eeGPUStateManager.h>
+	<engines/eeDeviceCaps.h>
+	<windows/eeWindow.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/math/eeVector2f.h
+	<eeCommon.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/math/eeVector4f.h
+	<math/eeVector3f.h>
+	<eeCommon.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/math/eeMatrix4f.h
+	<math/eeVector4f.h>
+
+1281030866 /home/rschus/devel/enfent-engine-trunk/include/textures/eeTexture.h
+	<string>
+	<eeCommon.h>
+	<math/eeVector4f.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/shaders/eeShader.h
+	<eeCommon.h>
+	<math/eeVector2f.h>
+	<math/eeVector3f.h>
+	<math/eeVector4f.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/shaders/eeProgram.h
+	<shaders/eeShader.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/buffers/eeVideoBuffer.h
+	<eeCommon.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/buffers/eeFrameBuffer.h
+	<eeCommon.h>
+	<buffers/eeRenderBuffer.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/buffers/eeRenderBuffer.h
+	<eeCommon.h>
+	<textures/eeTexture.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeInterface.h
+	<vector>
+	<eeVisibleObject.h>
+	<interface/eeForm.h>
+	<events/eeMouseEventsSource.h>
+	<events/eeKeyEventsSource.h>
+	<interface/eeButton.h>
+	<interface/eeLabel.h>
+	<interface/eeCheckbox.h>
+	<sprites/eeSimpleSprite.h>
+	<interface/eeGauge.h>
+	<interface/eeEditbox.h>
+	<interface/eePanel.h>
+	<tools/eeMemoryManager.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeForm.h
+	<eeCommon.h>
+	<events/eeMouseEvent.h>
+	<events/eeMouseListener.h>
+	<events/eeKeyListener.h>
+	<events/eeMouseEventsSource.h>
+	<events/eeKeyEventsSource.h>
+	<interface/eeInterfaceContainer.h>
+	<interface/eeInterfaceControl.h>
+	<interface/eeBorder.h>
+	<math/eeVector4f.h>
+	<interface/eeBorder.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeInterfaceContainer.h
+	<vector>
+	<interface/eeInterfaceControl.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeInterfaceControl.h
+	<sprites/eeSprite.h>
+	<events/eeMouseListener.h>
+	<events/eeMouseEvent.h>
+	<events/eeKeyListener.h>
+	<events/eeKeyEvent.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/sprites/eeSprite.h
+	<eeCommon.h>
+	<eeVisibleObject.h>
+	<textures/eeTexture.h>
+	<math/eeVector3f.h>
+	<math/eeVector2f.h>
+	<sprites/eeAbstractSprite.h>
+	<states/eeAlphaTestState.h>
+	<states/eeBlendState.h>
+	<states/eeColorState.h>
+	<states/eeTexturesState.h>
+	<states/eeBuffersState.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeColorState.h
+	<math/eeVector4f.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeTexturesState.h
+	<memory.h>
+	<textures/eeTexture.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeBuffersState.h
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeBorder.h
+	<eeCommon.h>
+	<math/eeVector4f.h>
+	<interface/eeInterfaceControl.h>
+	<states/eeBuffersState.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeButton.h
+	<eeTypes.h>
+	<math/eeMaths.h>
+	<interface/eeInterfaceControl.h>
+	<events/eeActionEventsSource.h>
+	<events/eeMouseEventsSource.h>
+	<events/eeMouseListener.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/math/eeMaths.h
+	<cstdlib>
+	<cmath>
+	<ctime>
+	<eeConsts.h>
+	<eeTypes.h>
+	<math/eeVector2f.h>
+	<math/eeVector3f.h>
+	<math/eeVector4f.h>
+	<math/eePlane.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/math/eePlane.h
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeActionEventsSource.h
+	<vector>
+	<eeTypes.h>
+	<events/eeActionListener.h>
+	<events/eeActionEvent.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeActionListener.h
+	<eeCommon.h>
+	<events/eeActionEvent.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/events/eeActionEvent.h
+	<events/eeSystemEvent.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeLabel.h
+	<string>
+	<eeTypes.h>
+	<interface/eeInterfaceControl.h>
+	<fonts/eeFont.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeCheckbox.h
+	<interface/eeButton.h>
+	<interface/eeLabel.h>
+	<interface/eeInterfaceControl.h>
+	<events/eeActionListener.h>
+	<events/eeMouseListener.h>
+	<events/eeMouseEventsSource.h>
+	<events/eeKeyEventsSource.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/sprites/eeSimpleSprite.h
+	<sprites/eeSprite.h>
+	<interface/eeBorder.h>
+	<interface/eeLabel.h>
+	<states/eeBuffersState.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeGauge.h
+	<interface/eeInterfaceControl.h>
+	<interface/eeLabel.h>
+	<sprites/eeSprite.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeEditbox.h
+	<interface/eeInterfaceControl.h>
+	<interface/eeLabel.h>
+	<interface/eeEditboxFilter.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeEditboxFilter.h
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eePanel.h
+	<interface/eeInterfaceControl.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/cameras/eeCamera.h
+	<cameras/eeAbstractCamera.h>
+	<math/eeVector3f.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/cameras/eeAbstractCamera.h
+	<eeCommon.h>
+	<states/eeViewportState.h>
+
+1281030874 /home/rschus/devel/enfent-engine-trunk/include/cameras/eeOrthoCamera.h
+	<cameras/eeAbstractCamera.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/sprites/eeAnimatedSprite.h
+	<eeCommon.h>
+	<sprites/eeSprite.h>
+	<math/eeMaths.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/sprites/eeMovableSprite.h
+	<sprites/eeAnimatedSprite.h>
+
+1281030873 /home/rschus/devel/enfent-engine-trunk/include/io/eeFileOutputStream.h
+	<cstdio>
+	<string>
+	<io/eeOutputStream.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeGPUStateManager.h
+	<stack>
+	<states/eeGPUState.h>
+	<textures/eeTexture.h>
+	<math/eeMatrix4f.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeGPUState.h
+	<states/eeViewportState.h>
+	<states/eeBlendState.h>
+	<states/eeColorState.h>
+	<states/eeAlphaTestState.h>
+	<states/eeDepthTestState.h>
+	<states/eeMatrixState.h>
+	<states/eeTexturesState.h>
+	<states/eeBuffersState.h>
+	<states/eeShadersState.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeDepthTestState.h
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeMatrixState.h
+	<math/eeMatrix4f.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeShadersState.h
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/engines/eeDeviceCaps.h
+	<eeCommon.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/buffers/eeVBOExt.h
+	<eeCommon.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/buffers/eeVBOImpl.h
+	<eeCommon.h>
+	<buffers/eeVBOExt.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/shaders/eeShadersExt.h
+	<eeCommon.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/shaders/eeShadersImpl.h
+	<shaders/eeShadersExt.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/buffers/eeFBOExt.h
+	<eeCommon.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/buffers/eeFBOImpl.h
+	<eeCommon.h>
+	<buffers/eeFBOExt.h>
+
+1281030866 /home/rschus/devel/enfent-engine-trunk/include/textures/eeMIPsExt.h
+	<eeCommon.h>
+
+1281030866 /home/rschus/devel/enfent-engine-trunk/include/textures/eeMIPsImpl.h
+	<eeCommon.h>
+	<textures/eeMIPsExt.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/states/eeGLGPUStateManager.h
+	<map>
+	<eeCommon.h>
+	<ext/eeMultiTextureExt.h>
+	<buffers/eeVBOExt.h>
+	<shaders/eeShadersExt.h>
+	<states/eeAlphaTestState.h>
+	<states/eeDepthTestState.h>
+	<states/eeBlendState.h>
+	<states/eeColorState.h>
+	<states/eeViewportState.h>
+	<states/eeGPUStateManager.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/ext/eeMultiTextureExt.h
+	<eeCommon.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/ext/eeVSyncExt.h
+	<eeCommon.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/ext/eeVSyncImpl.h
+	<ext/eeVSyncExt.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/ext/eeMultiTextureImpl.h
+	<ext/eeMultiTextureExt.h>
+
+1281030867 /home/rschus/devel/enfent-engine-trunk/include/engines/eeGLDeviceCaps.h
+	<eeCommon.h>
+	<engines/eeDeviceCaps.h>
+	<buffers/eeFBOExt.h>
+
+1281030871 /home/rschus/devel/enfent-engine-trunk/include/interface/eeGUIBuilder.h
+	<sprites/eeSprite.h>
+	<interface/eeInterface.h>
+
+1281218994 source:/home/rschus/devel/eengine-projects/e05-texnshader2/src/main.cpp
+	<windows/eeWindowSystemFactory.h>
+	<engines/eeGLEngine.h>
+	<cameras/eeOrthoCamera.h>
+	<interface/eeGUIBuilder.h>
+	<tools/eeTextureTool.h>
+	<tools/eeTimerFactory.h>
+	<iostream>
+	<algorithm>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeTextureTool.h
+	<eeCommon.h>
+	<textures/eeTexture.h>
+	<loaders/eePNGLoader.h>
+	<loaders/eeTGALoader.h>
+	<loaders/eeBMPLoader.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eePNGLoader.h
+	<stdlib.h>
+	<zlib/eeZLib.h>
+	<loaders/eeTextureLoader.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/zlib/eeZLib.h
+	<vector>
+	<eeCommon.h>
+	<tools/eeDynamicHuffmanTree.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeDynamicHuffmanTree.h
+	<vector>
+	<eeCommon.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeTextureLoader.h
+	<eeConsts.h>
+	<loaders/eeLoader.h>
+	<textures/eeTexture.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<eeCommon.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeTGALoader.h
+	<stdlib.h>
+	<loaders/eeTextureLoader.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeBMPLoader.h
+	<stdio.h>
+	<eeCommon.h>
+	<loaders/eeTextureLoader.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeTimerFactory.h
+	<tools/eeTimer.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeTimer.h
+	<eeCommon.h>
+	<ctime>
+
