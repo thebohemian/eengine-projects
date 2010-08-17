@@ -8,9 +8,9 @@
 		<Cursor position="443" topLine="0" />
 	</File>
 	<File name="data/red.fsh" open="0" top="0" tabpos="0">
-		<Cursor position="77" topLine="0" />
+		<Cursor position="54" topLine="0" />
 	</File>
-	<File name="src/main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="2448" topLine="45" />
+	<File name="src/main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1689" topLine="39" />
 	</File>
 </CodeBlocks_layout_file>

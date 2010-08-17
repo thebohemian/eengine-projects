@@ -473,3 +473,9 @@
 	<sprites/eeSprite.h>
 	<interface/eeInterface.h>
 
+1281197319 source:/home/rschus/devel/eengine-projects/e01-ultrabasics/src/main.cpp
+	<windows/eeWindowSystemFactory.h>
+	<engines/eeGLEngine.h>
+	<cameras/eeOrthoCamera.h>
+	<interface/eeGUIBuilder.h>
+

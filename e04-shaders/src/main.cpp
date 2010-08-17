@@ -29,14 +29,14 @@ int main(void) {
     cam2d->apply();
 
     Shader *pix = engine->createPixelShader();
-    ASSERT(pix->load("data/sobel.fsh", true, SCF_LOG_ERRORS));
-
+    ASSERT(pix->load("data/red.fsh", true, SCF_LOG_ERRORS));
+/*
     Shader *vex = engine->createVertexShader();
     ASSERT(vex->load("data/sobel.vsh", true, SCF_LOG_ERRORS));
-
+*/
     Program *prog = engine->createProgram();
     prog->setPixelShader(pix);
-    prog->setVertexShader(vex);
+//    prog->setVertexShader(vex);
     prog->link(SCF_LOG_ERRORS);
 
     Sprite *spr = GUIBuilder::createSpriteFromFile(engine, std::string("data/butterfly.png"));

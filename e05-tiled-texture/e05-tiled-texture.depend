@@ -473,3 +473,51 @@
 	<sprites/eeSprite.h>
 	<interface/eeInterface.h>
 
+1281197321 source:/home/rschus/devel/eengine-projects/e05-tiled-texture/src/main.cpp
+	<windows/eeWindowSystemFactory.h>
+	<engines/eeGLEngine.h>
+	<cameras/eeOrthoCamera.h>
+	<interface/eeGUIBuilder.h>
+	<tools/eeTextureTool.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeTextureTool.h
+	<eeCommon.h>
+	<textures/eeTexture.h>
+	<loaders/eePNGLoader.h>
+	<loaders/eeTGALoader.h>
+	<loaders/eeBMPLoader.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eePNGLoader.h
+	<stdlib.h>
+	<zlib/eeZLib.h>
+	<loaders/eeTextureLoader.h>
+
+1281030872 /home/rschus/devel/enfent-engine-trunk/include/zlib/eeZLib.h
+	<vector>
+	<eeCommon.h>
+	<tools/eeDynamicHuffmanTree.h>
+
+1281030870 /home/rschus/devel/enfent-engine-trunk/include/tools/eeDynamicHuffmanTree.h
+	<vector>
+	<eeCommon.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeTextureLoader.h
+	<eeConsts.h>
+	<loaders/eeLoader.h>
+	<textures/eeTexture.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeLoader.h
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<eeCommon.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeTGALoader.h
+	<stdlib.h>
+	<loaders/eeTextureLoader.h>
+
+1281030868 /home/rschus/devel/enfent-engine-trunk/include/loaders/eeBMPLoader.h
+	<stdio.h>
+	<eeCommon.h>
+	<loaders/eeTextureLoader.h>
+

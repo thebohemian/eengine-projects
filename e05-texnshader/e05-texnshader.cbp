@@ -42,6 +42,8 @@
 			<Add library="X11" />
 			<Add library="../engine/bin/release/libEEngine.a" />
 		</Linker>
+		<Unit filename="data/tex.fsh" />
+		<Unit filename="data/tex.vsh" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
